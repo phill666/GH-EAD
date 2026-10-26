@@ -1,0 +1,7 @@
+{
+  "filename": "models/teacher_small.pth",
+  "observed_sha256": "b98a6a139087a0d743783ee59f367f0284af6003eb1a5fed0ce92bd9c0acd337",
+  "bytes": 10779715,
+  "not_distributed": true,
+  "provenance": "Observed project teacher; source repository offers teacher weights, exact upstream byte identity not independently confirmed."
+}

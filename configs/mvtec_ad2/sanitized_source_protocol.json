@@ -1,0 +1,87 @@
+{
+  "basic": {
+    "experiment_name": "efficientad_mvtecad2",
+    "project_name": "EfficientAD",
+    "seed": 42,
+    "output_root": "outputs/mvtec_ad2",
+    "save_dir": "auto",
+    "device": "cuda:0",
+    "num_workers": 4
+  },
+  "dataset": {
+    "dataset_name": "mvtec_ad",
+    "dataset_root": "data/mvtec_ad2",
+    "category": "can",
+    "train_dir_name": "train",
+    "val_dir_name": "validation",
+    "test_dir_name": "test",
+    "use_validation": true,
+    "use_test_public": true,
+    "support_test_private": false,
+    "image_size": 256,
+    "center_crop": null,
+    "normalization": {
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    },
+    "batch_size": 1,
+    "val_batch_size": 4,
+    "test_batch_size": 4
+  },
+  "model": {
+    "model_name": "EfficientAD",
+    "name": "EfficientAD",
+    "variant": "gs_hf_full",
+    "hf_fusion_beta": 0.2,
+    "model_size": "small",
+    "teacher_out_channels": 384,
+    "lr": 0.0001,
+    "weight_decay": 1e-05,
+    "padding": false,
+    "pad_maps": true,
+    "imagenet_dir": null,
+    "pretrained_teacher": "models/teacher_small.pth",
+    "use_pretrained_teacher": true
+  },
+  "training": {
+    "train_steps": 70000,
+    "max_epochs": null,
+    "accelerator": "cuda",
+    "precision": 32,
+    "gradient_clip_val": 0.0,
+    "accumulate_grad_batches": 1,
+    "log_every_n_steps": 10,
+    "check_val_every_n_epoch": null,
+    "check_val_every_n_steps": 10000,
+    "save_every_n_steps": 1000,
+    "deterministic": false
+  },
+  "logging": {
+    "save_top_k": 1,
+    "monitor_metric": "image_auc",
+    "monitor_mode": "max",
+    "save_last": true,
+    "enable_checkpointing": true,
+    "enable_tensorboard": false,
+    "enable_csv_logger": true,
+    "save_predictions": true,
+    "save_visualizations": false
+  },
+  "evaluation": {
+    "run_test_after_fit": true,
+    "eval_split": "test_public",
+    "metrics": [
+      "image_auc"
+    ],
+    "threshold": null,
+    "save_anomaly_maps": true
+  }
+}

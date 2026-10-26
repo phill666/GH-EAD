@@ -1,0 +1,89 @@
+[
+  {
+    "file": "efficientad.py",
+    "sha256": "17bb6406d2af78ef4634474ce7976865702b4ea3f30d1e436eb641a0febac66f",
+    "package_sha256": "17bb6406d2af78ef4634474ce7976865702b4ea3f30d1e436eb641a0febac66f",
+    "path_cleanup_only": false
+  },
+  {
+    "file": "common.py",
+    "sha256": "e02a6c09788be7ce127e188706dfc5cee26e67523bac1057174ea3ecc7f18b0a",
+    "package_sha256": "e02a6c09788be7ce127e188706dfc5cee26e67523bac1057174ea3ecc7f18b0a",
+    "path_cleanup_only": false
+  },
+  {
+    "file": "efficientad_variant_gs_hf_v2.py",
+    "sha256": "3c8efc3e65eb61a11a7d5a361ad960f9e6f2f495c3bd29f369f62dcae81e192b",
+    "package_sha256": "3c8efc3e65eb61a11a7d5a361ad960f9e6f2f495c3bd29f369f62dcae81e192b",
+    "path_cleanup_only": false
+  },
+  {
+    "file": "btad_dataset.py",
+    "sha256": "92f4a44a08f5f3a767a6c7f9bc20870f9510a96dd7c1e5188b990eef30b68eb3",
+    "package_sha256": "3a368ba6dc723c611d1588bff9a040c60ff37404cf915f11324311e41eea5107",
+    "path_cleanup_only": true
+  },
+  {
+    "file": "visa_dataset.py",
+    "sha256": "3626ef9cf451c7c6b791542411e9658579ba292759db182d189d5197adbaa4f5",
+    "package_sha256": "3626ef9cf451c7c6b791542411e9658579ba292759db182d189d5197adbaa4f5",
+    "path_cleanup_only": false
+  },
+  {
+    "file": "cfrp_dataset.py",
+    "sha256": "5f4f38871b869de771d55472fb1f81d2e67cade5b5430e33e03e9eadd3e0b00a",
+    "package_sha256": "f0575a8f3c47557874d60e3e77a2015a5c7ef36bfa498a234c2340b18eddd83b",
+    "path_cleanup_only": true
+  },
+  {
+    "file": "utils/__init__.py",
+    "sha256": "6e2f05c6f491589e40a63c4dc4c0a51b208105d123296685e8093ceaf745d671",
+    "package_sha256": "6e2f05c6f491589e40a63c4dc4c0a51b208105d123296685e8093ceaf745d671",
+    "path_cleanup_only": false
+  },
+  {
+    "file": "utils/config.py",
+    "sha256": "6c3c0e491a3fd8ffadd1cf712343e4f11e4702b7e8be9caf6cc34c6c5fb1fb3c",
+    "package_sha256": "61e31d251d9b8e6c9052ea8b2868fff18dba52e1e9e3a2020cb59f3b37d2b073",
+    "path_cleanup_only": true
+  },
+  {
+    "file": "modules/gs_halfconv_v2.py",
+    "sha256": "20a27e302340a1434d444cb13f2af55dd2f60f8b57b7fce37a22e7c6c52bd774",
+    "package_sha256": "20a27e302340a1434d444cb13f2af55dd2f60f8b57b7fce37a22e7c6c52bd774",
+    "path_cleanup_only": false
+  },
+  {
+    "file": "modules/hf_igate_v2.py",
+    "sha256": "5c7a35f3268db657937ffd0ad61752ff3abc92058a1fcc24f87a70784ffa4e78",
+    "package_sha256": "5c7a35f3268db657937ffd0ad61752ff3abc92058a1fcc24f87a70784ffa4e78",
+    "path_cleanup_only": false
+  },
+  {
+    "file": "tools/evaluate_model.py",
+    "sha256": "a9a5e8b42b84044a67796fdc20be7f1236650bc069a600aef8da48b274ad46f1",
+    "package_sha256": "a9a5e8b42b84044a67796fdc20be7f1236650bc069a600aef8da48b274ad46f1",
+    "path_cleanup_only": false
+  },
+  {
+    "file": "LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "package_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "path_cleanup_only": false
+  },
+  {
+    "file": "output/yaml_runs/EfficientAD/gs_hf_full/can/20260324-025700_efficientad_mvtecad2_small_seed42/resolved_config.json",
+    "sha256": "864410771815fb8d733c4cd45c75c18eea899774906865b7278fa331e472a753",
+    "package_config": "configs/mvtec_ad2/ghead.yaml"
+  },
+  {
+    "file": "output/visa/efficientad/gs_hf_full/candle/20260330-203421_efficientad_visa_small_seed42/resolved_config.json",
+    "sha256": "0b3f8583f4f2a85dd45aeb1a5558736ac562b07ff702473a6dc1aaad027bda35",
+    "package_config": "configs/visa/ghead.yaml"
+  },
+  {
+    "file": "output/btad/efficientad/gs_hf_full/01/20260331-131222_efficientad_btad_small_seed42/resolved_config.json",
+    "sha256": "fe19e085082438774d1f8cd06f8587ea669fb71d5f34a95914befc148c44a18a",
+    "package_config": "configs/btad/ghead.yaml"
+  }
+]

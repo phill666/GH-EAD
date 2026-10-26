@@ -1,0 +1,1 @@
+-r environment/requirements_minimal.txt

@@ -1,0 +1,15 @@
+{
+  "groups": 1,
+  "half_ratio": 0.5,
+  "shuffle": true,
+  "se_gate": true,
+  "seed": 42,
+  "training_steps": 70000,
+  "dataset": "mvtec_ad2",
+  "categories": [
+    "can",
+    "sheet_metal",
+    "vial",
+    "wallplugs"
+  ]
+}

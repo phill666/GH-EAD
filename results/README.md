@@ -1,0 +1,3 @@
+# Result provenance policy
+
+No paper/review response, checkpoint, raw dataset, private run path or historical metric table is distributed here. Formal-paper aggregates, fixed-last reevaluations, later numerical realizations and multiseed means are distinct cohorts. Some historical formal-to-checkpoint mappings remain unresolved. This repository does not claim bitwise reconstruction of those aggregates or distribute them as validated new runs. New users generate versioned outputs with configs, source/checkpoint hashes and explicit fixed-final policy. The schema in results_example is illustrative only.

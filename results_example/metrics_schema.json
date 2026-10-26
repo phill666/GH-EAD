@@ -1,0 +1,12 @@
+{
+  "example_type": "schema_only_not_experimental_data",
+  "columns": {
+    "category": "string",
+    "variant": "string",
+    "checkpoint_kind": "last",
+    "image_auroc": "float 0..100",
+    "pixel_auroc": "float 0..100",
+    "au_pro": "float 0..100"
+  },
+  "macro": "equal arithmetic mean over all configured categories"
+}

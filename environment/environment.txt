@@ -1,0 +1,18 @@
+torch = 2.0.0+cu118
+torchvision = 0.15.1+cu118
+numpy = 1.26.4
+scipy = 1.15.3
+scikit-learn = 1.7.2
+opencv-python = 4.13.0.92
+opencv-python-headless = not installed
+Pillow = 12.1.1
+tifffile = 2025.5.10
+tqdm = 4.67.3
+faiss-cpu = 1.14.2
+tensorboard = not installed
+PyYAML = 6.0.3
+Python = 3.10.20
+CUDA_build = 11.8
+cuDNN_runtime = 8700
+GPU_initialization = not performed
+CPU-only metadata probe; no environment changes. Optional packages are not required for GH-EAD core.

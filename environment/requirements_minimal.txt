@@ -1,0 +1,10 @@
+# Observed environment versions, not an instruction to upgrade an existing setup.
+# CUDA 11.8 wheel build for the torch/torchvision pair; install manually only in a new environment.
+torch==2.0.0+cu118
+torchvision==0.15.1+cu118
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.7.2
+Pillow==12.1.1
+tifffile==2025.5.10
+tqdm==4.67.3

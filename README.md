@@ -4,7 +4,7 @@
 
 This package contains the audited EfficientAD-based GH-EAD implementation, dataset loaders, source-derived configurations, fixed-last training/testing entry points and the shared revision evaluator. It uses GSHConv in the student/autoencoder feature towers and HICGate v2 to fuse **single-channel anomaly responses**, not multichannel feature tensors.
 
-Datasets, masks and checkpoints are not included. This is a local prepared source tree. Remote publication status must be verified separately; a target URL is not evidence of an uploaded repository. `SOURCE_PROVENANCE.json` records source fingerprints; `NOTICE.md` and `LICENSE` retain attribution. Original project files and paper results are unchanged.
+Datasets, masks and checkpoints are not included. This is a local prepared source tree. The source repository is publicly accessible at https://github.com/phill666/GH-EAD. Public availability does not, by itself, establish end-to-end GPU reproduction of the reported experimental results. `SOURCE_PROVENANCE.json` records source fingerprints; `NOTICE.md` and `LICENSE` retain attribution. Original project files and paper results are unchanged.
 
 ## 2. Environment
 
@@ -111,7 +111,7 @@ On Windows DataLoader, CUDA, WHEA or system failures, preserve logs and outputs 
 
 ## Paper and code availability
 
-Manuscript under review at Image and Vision Computing. No acceptance, DOI, volume, issue or publication year is claimed. The requested repository target is https://github.com/phill666/GH-EAD; availability and visibility must be verified after authenticated private publication. Do not cite the target as a published public repository before verification. Weights and datasets are not bundled, and no unverified download link is offered.
+Manuscript under review at Image and Vision Computing. No acceptance, DOI, volume, issue or publication year is claimed. The source code and configuration materials are publicly accessible at https://github.com/phill666/GH-EAD. Data, pretrained weights and trained checkpoints are not bundled; end-to-end GPU reproduction of the published source package has not been certified. Weights and datasets are not bundled, and no unverified download link is offered.
 
 ## Installation
 
